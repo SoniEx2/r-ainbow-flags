@@ -4,6 +4,8 @@ LGBT-Themed Flair for Reddit communities
 This project contains 15 flags and the CSS necessary to implement them 
 as flair for a subreddit, as we have done over at [/r/ainbow](http://www.reddit.com/r/ainbow/).
 
+Go to the bottom of this readme to see what's different in this fork.
+
 Instructions
 ------------
 
@@ -63,3 +65,53 @@ in the "Flair Text" box. This is entirely optional.
 Blended flags were designed by reddit user WTFcannuck; thanks so much! 
 
 If you have any questions or issues, message joeycastillo on reddit. 
+
+On this fork: Split flags for sexualities and more
+-----
+
+This fork modifies the original /r/ainbow flair by josecastillo by adding
+24 more flags to the mix, up to a total of 39 flags.
+
+File names and class names have also been unified for consistency, and the
+CSS file has been updated accordingly.
+
+A .psd file has been added for easy modification of the current flags.
+
+The original licensing of josecastillo's version applies for this fork.
+
+The new flags added are listed here by class name. On step 3 of the instructions above, you will have to add this classes as well.
+
+* ainbow-bi
+* ainbow-pan
+* ainbow-ace
+* ainbow-straight
+* bi-ainbow
+* bi-pan
+* bi-ace
+* bi-straight
+* pan-ainbow
+* pan-bi
+* pan-ace
+* pan-straight
+* ace-ainbow
+* ace-bi
+* ace-pan
+* ace-straight
+* straight-ainbow
+* straight-bi
+* straight-pan
+* straight-ace
+* trans-straight
+* trans-genderqueer
+* genderqueer-straight
+* genderqueer-trans
+
+A suggested distribution of the flairs on the flair selection box has been uploaded as 5by8.png.
+
+
+
+
+
+
+
+
