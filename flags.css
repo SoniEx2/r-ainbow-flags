@@ -16,7 +16,31 @@ span.flair-trans-ace,
 span.flair-genderqueer-ainbow, 
 span.flair-genderqueer-pan, 
 span.flair-genderqueer-bi, 
-span.flair-genderqueer-ace
+span.flair-genderqueer-ace,
+span.flair-ainbow-bi,
+span.flair-aimbow-ace,
+span.flair-ainbow-straight,
+span.flair-ainbow-pan,
+span.flair-bi-ainbow,
+span.flair-bi-ace,
+span.flair-bi-straight,
+span.flair-bi-pan,
+span.flair-ace-ainbow,
+span.flair-ace-bi,
+span.flair-ace-straight,
+span.flair-ace-pan,
+span.flair-straight-ainbow,
+span.flair-straight-bi,
+span.flair-straight-ace,
+span.flair-straight-pan,
+span.flair-pan-ainbow,
+span.flair-pan-bi,
+span.flair-pan-ace,
+span.flair-pan-straight,
+span.flair-trans-genderqueer,
+span.flair-trans-straight,
+span.flair-genderqueer-trans,
+span.flair-genderqueer-straight
 {
 	visibility: visible;
 	width: 18px;
@@ -56,7 +80,31 @@ a[href="/trans-ace"]:after,
 a[href="/genderqueer-ainbow"]:after,
 a[href="/genderqueer-bi"]:after,
 a[href="/genderqueer-pan"]:after,
-a[href="/genderqueer-ace"]:after
+a[href="/genderqueer-ace"]:after,
+a[href="/ainbow-bi"]:after, 
+a[href="/ainbow-ace"]:after, 
+a[href="/ainbow-straight"]:after, 
+a[href="/ainbow-pan"]:after, 
+a[href="/bi-ainbow"]:after, 
+a[href="/bi-ace"]:after, 
+a[href="/bi-straight"]:after, 
+a[href="/bi-pan"]:after, 
+a[href="/ace-ainbow"]:after, 
+a[href="/ace-bi"]:after, 
+a[href="/ace-straight"]:after, 
+a[href="/ace-pan"]:after, 
+a[href="/straight-ainbow"]:after,
+a[href="/straight-bi"]:after,
+a[href="/straight-ace"]:after,
+a[href="/straight-pan"]:after,
+a[href="/pan-ainbow"]:after,
+a[href="/pan-bi"]:after,
+a[href="/pan-ace"]:after,
+a[href="/pan-straight"]:after,
+a[href="/trans-genderqueer"]:after, 
+a[href="/trans-straight"]:after, 
+a[href="/genderqueer-trans"]:after,
+a[href="/genderqueer-straight"]:after
 {
     width: 18px;
     height: 12px;
@@ -83,15 +131,40 @@ span.flair-bi { background:#DDD url(%%bi%%) no-repeat left top !important; }
 span.flair-ace { background:#DDD url(%%ace%%) no-repeat left top !important; }
 span.flair-trans { background:#DDD url(%%trans%%) no-repeat left top !important; }
 span.flair-pan { background:#DDD url(%%pan%%) no-repeat left top !important; }
-span.flair-genderqueer { background:#DDD url(%%gq%%) no-repeat left top !important; }
+span.flair-genderqueer { background:#DDD url(%%genderqueer%%) no-repeat left top !important; }
 span.flair-trans-ainbow { background:#DDD url(%%trans-ainbow%%) no-repeat left top !important; }
 span.flair-trans-pan { background:#DDD url(%%trans-pan%%) no-repeat left top !important; }
 span.flair-trans-bi { background:#DDD url(%%trans-bi%%) no-repeat left top !important; }
 span.flair-trans-ace { background:#DDD url(%%trans-ace%%) no-repeat left top !important; }
-span.flair-genderqueer-ainbow { background:#DDD url(%%gq-ainbow%%) no-repeat left top !important; }
-span.flair-genderqueer-pan { background:#DDD url(%%gq-pan%%) no-repeat left top !important; }
-span.flair-genderqueer-bi { background:#DDD url(%%gq-bi%%) no-repeat left top !important; }
-span.flair-genderqueer-ace { background:#DDD url(%%gq-ace%%) no-repeat left top !important; }
+span.flair-genderqueer-ainbow { background:#DDD url(%%genderqueer-ainbow%%) no-repeat left top !important; }
+span.flair-genderqueer-pan { background:#DDD url(%%genderqueer-pan%%) no-repeat left top !important; }
+span.flair-genderqueer-bi { background:#DDD url(%%genderqueer-bi%%) no-repeat left top !important; }
+span.flair-genderqueer-ace { background:#DDD url(%%genderqueer-ace%%) no-repeat left top !important; }
+span.flair-ainbow-bi { background:#DDD url(%%ainbow-bi%%) no-repeat left top !important;}
+span.flair-ainbow-ace { background:#DDD url(%%ainbow-ace%%) no-repeat left top !important;}
+span.flair-ainbow-straight { background:#DDD url(%%ainbow-straight%%) no-repeat left top !important;}
+span.flair-ainbow-pan { background:#DDD url(%%ainbow-pan%%) no-repeat left top !important;}
+span.flair-bi-ainbow { background:#DDD url(%%bi-ainbow%%) no-repeat left top !important; }
+span.flair-bi-ace { background:#DDD url(%%bi-ace%%) no-repeat left top !important; }
+span.flair-bi-straight { background:#DDD url(%%bi-straight%%) no-repeat left top !important; }
+span.flair-bi-pan { background:#DDD url(%%bi-pan%%) no-repeat left top !important; }
+span.flair-ace-ainbow { background:#DDD url(%%ace-ainbow%%) no-repeat left top !important; }
+span.flair-ace-bi { background:#DDD url(%%ace-bi%%) no-repeat left top !important; }
+span.flair-ace-straight { background:#DDD url(%%ace-straight%%) no-repeat left top !important; }
+span.flair-ace-pan { background:#DDD url(%%ace-pan%%) no-repeat left top !important; }
+span.flair-straight-ainbow { background:#DDD url(%%straight-ainbow%%) no-repeat left top !important; }
+span.flair-straight-bi { background:#DDD url(%%straight-bi%%) no-repeat left top !important; }
+span.flair-straight-ace { background:#DDD url(%%straight-ace%%) no-repeat left top !important; }
+span.flair-straight-pan { background:#DDD url(%%straight-pan%%) no-repeat left top !important; }
+span.flair-pan-ainbow { background:#DDD url(%%pan-ainbow%%) no-repeat left top !important; }
+span.flair-pan-bi { background:#DDD url(%%pan-bi%%) no-repeat left top !important; }
+span.flair-pan-ace { background:#DDD url(%%pan-ace%%) no-repeat left top !important; }
+span.flair-pan-straight { background:#DDD url(%%pan-straight%%) no-repeat left top !important; }
+span.flair-trans-genderqueer { background:#DDD url(%%trans-genderqueer%%) no-repeat left top !important; }
+span.flair-trans-straight { background:#DDD url(%%trans-straight%%) no-repeat left top !important; }
+span.flair-genderqueer-trans { background:#DDD url(%%genderqueer-trans%%) no-repeat left top !important; }
+span.flair-genderqueer-straight { background:#DDD url(%%genderqueer-straight%%) no-repeat left top !important; }
+
 
 /* This flair style should be entered as "none" (no quotes) in the flair
  * template screen. It's to let people unset their flag. */
@@ -113,14 +186,44 @@ a[href="/trans"]:after { background-image: url(%%trans%%); }
 a[href="/bi"]:after { background-image: url(%%bi%%); }
 a[href="/ace"]:after { background-image: url(%%ace%%); }
 a[href="/pan"]:after { background-image: url(%%pan%%); }
-a[href="/genderqueer"]:after { background-image: url(%%gq%%); }
+a[href="/genderqueer"]:after { background-image: url(%%genderqueer%%); }
 a[href="/trans-ainbow"]:after { background-image: url(%%trans-ainbow%%); }
 a[href="/trans-bi"]:after { background-image: url(%%trans-bi%%); }
 a[href="/trans-pan"]:after { background-image: url(%%trans-pan%%); }
 a[href="/trans-ace"]:after { background-image: url(%%trans-ace%%); }
-a[href="/genderqueer-ainbow"]:after { background-image: url(%%gq-ainbow%%); }
-a[href="/genderqueer-bi"]:after { background-image: url(%%gq-bi%%); }
-a[href="/genderqueer-pan"]:after { background-image: url(%%gq-pan%%); }
-a[href="/genderqueer-ace"]:after { background-image: url(%%gq-ace%%); }
+a[href="/genderqueer-ainbow"]:after { background-image: url(%%genderqueer-ainbow%%); }
+a[href="/genderqueer-bi"]:after { background-image: url(%%genderqueer-bi%%); }
+a[href="/genderqueer-pan"]:after { background-image: url(%%genderqueer-pan%%); }
+a[href="/genderqueer-ace"]:after { background-image: url(%%genderqueer-ace%%); }
+a[href="/ainbow-bi"]:after { background-image: url(%%ainbow-bi%%); }
+a[href="/ainbow-ace"]:after { background-image: url(%%ainbow-ace%%); }
+a[href="/ainbow-straight"]:after { background-image: url(%%ainbow-straight%%); }
+a[href="/ainbow-pan"]:after { background-image: url(%%ainbow-pan%%); }
+a[href="/bi-ainbow"]:after { background-image: url(%%bi-ainbow%%); }
+a[href="/bi-ace"]:after { background-image: url(%%bi-ace%%); }
+a[href="/bi-straight"]:after { background-image: url(%%bi-straight%%); }
+a[href="/bi-pan"]:after { background-image: url(%%bi-pan%%); }
+a[href="/ace-ainbow"]:after { background-image: url(%%ace-ainbow%%); }
+a[href="/ace-bi"]:after { background-image: url(%%ace-bi%%); }
+a[href="/ace-straight"]:after { background-image: url(%%ace-straight%%); }
+a[href="/ace-pan"]:after { background-image: url(%%ace-pan%%); }
+a[href="/straight-ainbow"]:after { background-image: url(%%straight-ainbow%%); }
+a[href="/straight-bi"]:after { background-image: url(%%straight-bi%%); }
+a[href="/straight-ace"]:after { background-image: url(%%straight-ace%%); }
+a[href="/straight-pan"]:after { background-image: url(%%straight-pan%%); }
+a[href="/pan-ainbow"]:after { background-image: url(%%pan-ainbow%%); }
+a[href="/pan-bi"]:after { background-image: url(%%pan-bi%%); }
+a[href="/pan-ace"]:after { background-image: url(%%pan-ace%%); }
+a[href="/pan-straight"]:after { background-image: url(%%pan-straight%%); }
+a[href="/trans-genderqueer"]:after { background-image: url(%%trans-genderqueer%%); }
+a[href="/trans-straight"]:after { background-image: url(%%trans-straight%%); }
+a[href="/genderqueer-trans"]:after { background-image: url(%%genderqueer-trans%%); }
+a[href="/genderqueer-straight"]:after { background-image: url(%%genderqueer-straight%%); }
 
 /* End inline images */
+
+
+
+
+
+
